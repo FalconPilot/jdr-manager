@@ -1,0 +1,6 @@
+{
+  "name":           "jdr-manager",
+  "productName":    "JDR Manager",
+  "version":        "0.1.0",
+  "main":           "app.js"
+}
