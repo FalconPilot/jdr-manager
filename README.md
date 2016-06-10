@@ -1,1 +1,1 @@
-# jdr-manager
+# JDR Manager
