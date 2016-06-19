@@ -4,6 +4,26 @@
 
 body {
   background-color: #333;
-  font-family: 'dosis-regular';
+  color: #FFF;
+  font-family: 'dosisregular';
   font-size: 1em;
+}
+
+.global {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#contents {
+  width: 90%;
+  height: 80%;
+  padding: 5px;
+  background-color: #444;
+  border-radius: 4px;
 }

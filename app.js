@@ -23,6 +23,24 @@ function createWindow() {
 }
 
 /*
+**  Load data files
+*/
+
+function loadFiles() {
+  path = __dirname + '/data/'
+}
+
+/*
+**  Get directories
+*/
+
+function getDirectories(src) {
+  return fs.readdirSync(src).filter(function(file) {
+    return file.slice(-5) === '.json'
+  })
+}
+
+/*
 **  App event listeners
 */
 
